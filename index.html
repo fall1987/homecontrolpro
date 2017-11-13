@@ -7,19 +7,57 @@
 </head>
 
 <body>
-    <header>Meine Hütte</header>
-    <div id="beleuchtung">
+    <header>
+        <h1>Meine Hütte</h1>
+    </header>
+    <main>
+        <article id="beleuchtung">
+            <h2>Beleuchtung</h2>
+            <form>
+                <label>Licht:</label>
+                <input type="checkbox" />
+                <label>Helligkeit</label>
+                <input type="range" />
+                <label>Farbtemperatur:</label>
+                <input type="color" />
+            </form>            
+        </article>
 
-    </div>
-    <div id="heizung">
+        <article id="heizung">
+            <h2>Heizung</h2>
+            <p>Temperatur (Ist):</p>
+            
+            <form>
+                <label>Temperatur (Soll):</label>
+                <input type="number" />
+                <label>Automatisch absenken:</label>
+                <input type="checkbox" />
+            </form>
+        </article>
+        <article id="Nachricht">
+            <h2>Nachricht</h2>
+            <form>
+                <input type="text" value="Text"/>
+                <input type="button" value="Senden" />
+            </form>
+        </article>
+        <article id="kaffeemaschine">
+            <h2>Kaffeemaschine </h2>
+            <p>Bohnen <meter value="0.75">Bohnen</meter></p>
+            <p>Wasserstand <meter value="0.5">Wasserstand</meter></p>
+            <form>
+                <input type="button" value="Tasse" />
+                <input type="button" value="Auffüllen" />
+            </form>
+            
 
-    </div>
-    <div id="kaffeemaschine">
-
-    </div>
+        </article>
+    </main>
     <footer>
-        <button>Einstellungen</button>
-        <button>Aktualisieren</button>
+        <form>
+            <input type="button" value="Einstellungen" />
+            <input type="button" value="Aktualisieren" />
+        </form>
     </footer>
 </body>
 

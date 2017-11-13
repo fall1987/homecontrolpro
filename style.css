@@ -1,2 +1,32 @@
-﻿body {
+﻿body{
+
 }
+
+form {
+}
+header {
+    margin-top: 0px;
+    float: left;
+}
+
+main {
+    float:left;
+}
+
+footer {
+    background-color: #3333cc;
+    margin-bottom: 0px;
+    float: left;
+}
+h1 {
+    background-color: #3333cc;
+}
+
+h2 {
+        background-color: #6699ff;
+    }
+
+h1, h2 {
+    color: white;
+}
+
